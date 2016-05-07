@@ -79,14 +79,128 @@ textarea {
 -----------------------------------------------------------------------------
 Header
 -----------------------------------------------------------------------------  */
+body{
+    font: 14px PT Sans Regular, sans-serif;
+    /*background: #000;*/
+}
 
 
+#header-outer-wrapper{
+    background: #000;
+    height: 95px;
+}
 
+#header-inner-wrapper{
+    width: 822px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
 
+#header-logotip{
+    width: 227px;
+    height: 61px;
+    margin-top: 21px;
+    margin-right: 68px;
+}
 
+#header-center-wrapper{
+    margin-top: 19px;
+}
 
+#header-menu{
+    margin-bottom: 13px;
+}
 
+#header-menu p a{
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
+#terms-of-delivery{
+    background: url("../img/delivery.png") no-repeat 0px 0px;
+    background-size: 38%;
+    padding-left: 40px;
+    width: 54px;
+    margin-right: 10px;
+}
+
+#payment-system{
+    background: url("../img/payment_system.png") no-repeat 0px 4px;
+    background-size: 38%;
+    padding-left: 26px;
+    width: 42px;
+    margin-right: 10px;
+}
+
+#order-status{
+    background: url("../img/order_status.png") no-repeat 0px 4px;
+    background-size: 38%;
+    padding-left: 31px;
+    width: 32px;
+    margin-right: 10px;
+}
+
+#ask-question{
+    background: url("../img/ask_question.png") no-repeat 0px 4px;
+    background-size: 38%;
+    padding-left: 29px;
+    width: 36px;
+    margin-right: 10px;
+}
+
+#private-office{
+    background: url("../img/private_office.png") no-repeat 0px 4px;
+    background-size: 38%;
+    padding-left: 32px;
+    width: 42px;
+    margin-right: 0px;
+}
+
+#header-search{
+    position: relative;
+}
+
+#header-search input[type="text"]{
+    width: 404px;
+    height: 13px;
+}
+
+#header-search input[type="image"]{
+    position: absolute;
+    top: 1px;
+    left: 384px;
+}
+
+#basket-wrapper{
+    margin-left: 10px;
+    margin-top: 21px;
+    width: 108px;
+}
+
+#basket-wrapper .telefon, #basket-wrapper #total{
+    font-size: 12.5px;
+    color: #007bbb;
+}
+
+#basket{
+    background: url("../img/basket.png") no-repeat 0px 3px;
+    background-size: 23%;
+    padding-left: 28px;
+    padding-top: 8px;
+    margin-top: 7px;
+    height: 22px;
+}
+
+#basket a{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#basket-wrapper #total{
+    padding-left: 6px;
+}
 
 
 
