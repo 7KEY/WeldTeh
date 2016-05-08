@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "PT Sans Regular";
+    src: url("../fonts/PTS55F.ttf") ;
+}
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
@@ -80,125 +87,135 @@ textarea {
 Header
 -----------------------------------------------------------------------------  */
 body{
-    font: 14px PT Sans Regular, sans-serif;
+    font: 14px "PT Sans Regular", sans-serif;
     /*background: #000;*/
 }
 
 
-#header-outer-wrapper{
+.id-header-outer-wrapper{
     background: #000;
     height: 95px;
 }
 
-#header-inner-wrapper{
+.id-header-inner-wrapper{
     width: 822px;
     margin: 0 auto;
     padding-top: 1px;
 }
 
-#header-logotip{
+.id-header-logotip{
     width: 227px;
     height: 61px;
     margin-top: 21px;
-    margin-right: 68px;
+    margin-right: 66px;
 }
 
-#header-center-wrapper{
-    margin-top: 19px;
+.id-header-logotip a{
+    display: block;
+    width: 227px;
+    height: 61px;
+    background: url("../img/logo.png") no-repeat;
 }
 
-#header-menu{
-    margin-bottom: 13px;
+.id-header-center-wrapper{
+    margin-top: 20px;
 }
 
-#header-menu p a{
+.id-header-menu{
+    margin-bottom: 8px;
+}
+
+.id-header-menu p a{
     font-size: 12px;
     color: #ffffff;
     text-decoration: none;
 }
 
-#terms-of-delivery{
-    background: url("../img/delivery.png") no-repeat 0px 0px;
-    background-size: 38%;
+.id-terms-of-delivery{
+    background: url("../img/delivery.svg") no-repeat 0 0;
+    background-size: 37px auto;
     padding-left: 40px;
     width: 54px;
     margin-right: 10px;
 }
 
-#payment-system{
-    background: url("../img/payment_system.png") no-repeat 0px 4px;
-    background-size: 38%;
+.id-payment-system{
+    background: url("../img/payment_system.svg") no-repeat 0 4px;
+    background-size: 25px auto;
     padding-left: 26px;
     width: 42px;
     margin-right: 10px;
 }
 
-#order-status{
-    background: url("../img/order_status.png") no-repeat 0px 4px;
-    background-size: 38%;
+.id-order-status{
+    background: url("../img/order_status.svg") no-repeat 0 4px;
+    background-size: 25px auto;
     padding-left: 31px;
     width: 32px;
     margin-right: 10px;
 }
 
-#ask-question{
-    background: url("../img/ask_question.png") no-repeat 0px 4px;
-    background-size: 38%;
+.id-ask-question{
+    background: url("../img/ask_question.svg") no-repeat 0 4px;
+    background-size: 26px auto;
     padding-left: 29px;
     width: 36px;
     margin-right: 10px;
 }
 
-#private-office{
-    background: url("../img/private_office.png") no-repeat 0px 4px;
-    background-size: 38%;
+.id-private-office{
+    background: url("../img/private_office.svg") no-repeat 0 3px;
+    background-size: 27px auto;
     padding-left: 32px;
     width: 42px;
-    margin-right: 0px;
+    margin-right: 0;
 }
-
-#header-search{
+.id-header-search{
     position: relative;
 }
 
-#header-search input[type="text"]{
+.id-header-search input[type="text"]{
     width: 404px;
     height: 13px;
 }
 
-#header-search input[type="image"]{
+.id-header-search input[type="submit"]{
+    border: 0;
+    background: url("../img/search.svg") no-repeat;
+    width: 14px;
     position: absolute;
-    top: 1px;
-    left: 384px;
+    top: 2px;
+    left: 387px;
 }
 
-#basket-wrapper{
+.id-basket-wrapper{
     margin-left: 10px;
-    margin-top: 21px;
+    margin-top: 19px;
     width: 108px;
 }
 
-#basket-wrapper .telefon, #basket-wrapper #total{
-    font-size: 12.5px;
+.id-basket-wrapper .telefon a, .id-basket-wrapper .id-total{
+    font-size: 12px;
     color: #007bbb;
+    text-decoration: none;
 }
 
-#basket{
-    background: url("../img/basket.png") no-repeat 0px 3px;
-    background-size: 23%;
+.id-basket{
+    background: url("../img/basket.svg") no-repeat 0 3px;
+    background-size: 23px auto;
     padding-left: 28px;
-    padding-top: 8px;
-    margin-top: 7px;
+    padding-top: 9px;
+    margin-top: 1px;
     height: 22px;
 }
 
-#basket a{
+.id-basket a{
     color: #ffffff;
     font-size: 12px;
     text-decoration: none;
 }
 
-#basket-wrapper #total{
+.id-basket-wrapper .id-total{
     padding-left: 6px;
 }
 
@@ -324,66 +341,3 @@ body{
     *zoom: 1;
 }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
