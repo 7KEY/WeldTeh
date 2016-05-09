@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+/*
 @font-face {
-    font-family: "PT Sans Regular";
+    font-family: 'PT Sans', sans-serif;
     src: url("../fonts/PTS55F.ttf") ;
 }
+*/
+
+
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
@@ -87,7 +93,7 @@ textarea {
 Header
 -----------------------------------------------------------------------------  */
 body{
-    font: 14px "PT Sans Regular", sans-serif;
+    font: 14px 'PT Sans', sans-serif;
     /*background: #000;*/
 }
 
