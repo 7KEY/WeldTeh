@@ -128,7 +128,7 @@ body{
 }
 
 .id-header-menu{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .id-header-menu a{
@@ -182,18 +182,33 @@ body{
 }
 
 .id-header-search input[type="text"]{
+    box-sizing: border-box;
+    line-height: 1;
     width: 404px;
-    height: 13px;
+    height: 17px;
+    border: none;
+    padding: 0px 25px 1px 5px;
 }
 
 .id-header-search input[type="submit"]{
-    border: 0;
-    background: url("../img/search.svg") no-repeat;
+    border: none;
+    outline: none;
+    background: url("../img/search.svg") no-repeat 1px 1px;
     width: 14px;
     position: absolute;
-    top: 2px;
-    left: 387px;
+    top: 1px;
+    left: 383px;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* стили только для IE10 IE11 */
+    .id-header-search input[type="submit"]{
+        position: absolute;
+        top: -1px;
+        left: 383px;
+    }
+}
+
 
 .id-basket-wrapper{
     margin-left: 10px;
@@ -208,7 +223,7 @@ body{
 }
 
 .id-basket{
-    background: url("../img/basket.svg") no-repeat 0 0px;
+    background: url("../img/basket.svg") no-repeat 0 0;
     background-size: 23px auto;
     padding-left: 28px;
     padding-top: 9px;
