@@ -94,7 +94,7 @@ Header
 -----------------------------------------------------------------------------  */
 body{
     font: 14px 'PT Sans', sans-serif;
-    /*background: #000;*/
+    background: url("../img/main-background.jpg") repeat;
 }
 
 
@@ -121,10 +121,12 @@ body{
     width: 227px;
     height: 61px;
     background: url("../img/logo.png") no-repeat;
+    background-size: 227px;
 }
 
 .id-header-center-wrapper{
     margin-top: 20px;
+    margin-right: 6px;
 }
 
 .id-header-menu{
@@ -187,7 +189,7 @@ body{
     width: 404px;
     height: 17px;
     border: none;
-    padding: 0px 25px 1px 5px;
+    padding: 0 25px 1px 5px;
 }
 
 .id-header-search input[type="submit"]{
@@ -243,13 +245,62 @@ body{
 }
 
 
+/*------------------------------------------------------------
+middle part
+------------------------------------------------------------*/
 
+.id-middle-part-inner-wrapper{
+    width: 822px;
+    margin: 15px auto;
+    padding-top: 1px;
+}
 
+/*
+----------------------------------------
+top line
+----------------------------------------
+*/
 
+.id-top-line .news{
+    box-sizing: border-box;
+    width: 180px;
+    background: #000;
+}
 
+.id-top-line ul{
+    box-sizing: border-box;
+    width: 630px;
+    background: #000;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 8px;
+    padding-right: 0;
+    margin-right: 10px;
+}
+.id-top-line a {
+    display: block;
+    box-sizing: border-box;
+    height: 22px;
+    padding: 3px 11px;
+    margin-top: 2px;
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+}
 
+.id-top-line ul :last-child a{
+    margin-right: 0;
+    color: #f0b35a;
+}
 
-
+.id-top-line .news a{
+    height: 22px;
+    width: 106px;
+    padding: 3px 30px;
+    margin: 2px auto 0 auto;
+}
 
 
 
