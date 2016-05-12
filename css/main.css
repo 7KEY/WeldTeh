@@ -334,43 +334,43 @@ top - line - 2
     height: 50px;
 }
 
-.id-a-1{
+.id-block-products-groups :nth-child(2){
     background: url("../img/block-products-groups/electric-welding.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 1px;
 }
 
-.id-a-2{
+.id-block-products-groups :nth-child(3){
     background: url("../img/block-products-groups/miscellaneous.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 1px;
 }
 
-.id-a-3{
+.id-block-products-groups :nth-child(4){
     background: url("../img/block-products-groups/thermal-equipment.jpg") no-repeat;
     margin-top: 1px;
 }
 
 
-.id-a-4{
+.id-block-products-groups :nth-child(5){
     background: url("../img/block-products-groups/gas-welding.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 11px;
 }
 
-.id-a-5{
+.id-block-products-groups :nth-child(6){
     background: url("../img/block-products-groups/materials.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 11px;
 }
 
-.id-a-6{
+.id-block-products-groups :nth-child(7){
     background: url("../img/block-products-groups/stabilizers.jpg") no-repeat;
     margin-top: 11px;
 }
 
 
-.id-block-products-groups .id-a-7{
+.id-block-products-groups :nth-child(8){
     background: url("../img/block-products-groups/power-plants.jpg") no-repeat;
     width: 83px;
     margin-right: 11px;
@@ -378,42 +378,42 @@ top - line - 2
 
 }
 
-.id-a-8{
+.id-block-products-groups :nth-child(9){
     background: url("../img/block-products-groups/pumps.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 10px;
 
 }
 
-.id-a-9{
+.id-block-products-groups :nth-child(10){
     background: url("../img/block-products-groups/tools.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 10px;
 
 }
 
-.id-a-10{
+.id-block-products-groups :nth-child(11){
     background: url("../img/block-products-groups/compressors.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 10px;
 
 }
 
-.id-a-11{
+.id-block-products-groups :nth-child(12){
     background: url("../img/block-products-groups/ipm.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 10px;
 
 }
 
-.id-a-12{
+.id-block-products-groups :nth-child(13){
     background: url("../img/block-products-groups/devices.jpg") no-repeat;
     margin-right: 11px;
     margin-top: 10px;
 
 }
 
-.id-a-13{
+.id-block-products-groups :nth-child(14){
     background: url("../img/block-products-groups/devices.jpg") no-repeat;
     margin-top: 10px;
 
