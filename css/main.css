@@ -318,75 +318,55 @@ top - line - 2
 
 }
 
-.id-block-products-groups-line-1{
-    box-sizing: border-box;
-    width: 630px;
-
-}
 
 .id-image-1{
     width: 356px;
     height: 112px;
     background: url("../img/block-products-groups/workwoman.jpg") no-repeat 0 0;
-
-    /*border: none;*/
-    /*outline: none;*/
     margin-right: 11px;
-   /*padding: 0;*/
 }
 
-.id-block-a-1{
-    margin-top: 1px;
-}
-
-.id-block-a-2{
-    margin-top: 11px;
-}
 
 .id-block-products-groups a{
     display: block;
     box-sizing: border-box;
-
     width: 80px;
     height: 50px;
-
 }
 
 .id-a-1{
     background: url("../img/block-products-groups/electric-welding.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 1px;
 }
 
 .id-a-2{
     background: url("../img/block-products-groups/miscellaneous.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 1px;
 }
 
 .id-a-3{
     background: url("../img/block-products-groups/thermal-equipment.jpg") no-repeat;
+    margin-top: 1px;
 }
 
 
 .id-a-4{
     background: url("../img/block-products-groups/gas-welding.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 11px;
 }
 
 .id-a-5{
     background: url("../img/block-products-groups/materials.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 11px;
 }
 
 .id-a-6{
     background: url("../img/block-products-groups/stabilizers.jpg") no-repeat;
-}
-
-
-.id-block-products-groups-line-2{
-    box-sizing: border-box;
-    width: 630px;
-    margin-top: 10px;
-
+    margin-top: 11px;
 }
 
 
@@ -394,36 +374,49 @@ top - line - 2
     background: url("../img/block-products-groups/power-plants.jpg") no-repeat;
     width: 83px;
     margin-right: 11px;
+    margin-top: 10px;
 
 }
 
 .id-a-8{
     background: url("../img/block-products-groups/pumps.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 10px;
+
 }
 
 .id-a-9{
     background: url("../img/block-products-groups/tools.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 10px;
+
 }
 
 .id-a-10{
     background: url("../img/block-products-groups/compressors.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 10px;
+
 }
 
 .id-a-11{
     background: url("../img/block-products-groups/ipm.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 10px;
+
 }
 
 .id-a-12{
     background: url("../img/block-products-groups/devices.jpg") no-repeat;
     margin-right: 11px;
+    margin-top: 10px;
+
 }
 
 .id-a-13{
     background: url("../img/block-products-groups/devices.jpg") no-repeat;
+    margin-top: 10px;
+
 }
 
 /*-----------------------------------------*/
@@ -475,7 +468,9 @@ top - line - 2
     overflow: hidden;
 }
 
-
+/*-------------------------------------------------------
+top - line - 3
+-------------------------------------------------------*/
 
 
 
