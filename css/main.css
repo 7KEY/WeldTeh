@@ -397,7 +397,7 @@ top - line - 2
     height: 20px;
     position: absolute;
     bottom: 9px;
-    right: 0px;
+    right: 0;
 }
 
 .news-date{
@@ -463,19 +463,196 @@ top - line - 3
 
 }
 
+/*
+-------------------------------------------------------------------------
+top - line - 4
+------------------------------------------------------------------------- */
+
+.id-top-line-4{
+    margin-top: 18px;
+    color: #fff;
+}
+
+.id-block-content{
+    box-sizing: border-box;
+    width: 630px;
+    padding: 11px 25px 11px 20px;
+    margin-right: 10px;
+    background: #4a484a;
+}
+
+.id-block-content .header{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.id-block-content .id-text{
+
+    margin-bottom: 14px;
+}
+
+.id-block-content ul{
+    list-style-position: inside;
+}
 
 
 
 
 
 
+.id-block-aside{
+    box-sizing: border-box;
+    width: 180px;
+    margin-right: 0;
+    background: #3f3d3e;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.id-block-info{
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.id-block-info a{
+    display: block;
+}
 
 
+.id-block-info .id-document{
+    width: 99px;
+    height: 137px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+.id-block-info .id-left89-4{
+    background: url("../img/middle-part-top-line-4/left89.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-top: 74px;
+    margin-right: 20px;
+}
+
+.id-block-info .id-right92-4{
+    background: url("../img/middle-part-top-line-4/right92.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-top: 74px;
+    margin-right: 0;
+
+}
 
 
+.id-block-contacts{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
 
+.id-contacts-1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.id-contacts-2{
+    margin-top: 7px;
+}
+
+.id-contacts-2 a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.id-skype{
+    background: url("../img/middle-part-top-line-4/skype.svg") no-repeat;
+    margin-left: 10px;
+}
+
+.id-facebook{
+    background: url("../img/middle-part-top-line-4/facebook.svg") no-repeat;
+}
+.id-youtube{
+    background: url("../img/middle-part-top-line-4/youtube.svg") no-repeat;
+}
+.id-telephone{
+    background: url("../img/middle-part-top-line-4/telephone.svg") no-repeat;
+}
+
+
+/*-----------------------------------------------------------
+footer
+-----------------------------------------------------------*/
+
+.id-footer-outer-wrapper{
+    background: #000;
+    height: 135px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+
+    /*margin-bottom: 300px;*/
+}
+
+.id-footer-inner-wrapper{
+    width: 822px;
+    margin: 1px auto;
+
+    color: #fff;
+}
+
+.id-footer-inner-wrapper a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.id-footer-inner-wrapper ul{
+    font-size: 10px;
+    list-style-type: none;
+}
+
+.footer-header{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.footer-column{
+    margin-right: 45px;
+}
+
+.id-footer-column-4 ul li{
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.id-footer-column-5 ul li{
+    margin-top: 8px;
+    margin-right: 0;
+}
+
+.id-electronic-money{
+    width: 42px;
+    height: 35px;
+    background: url("../img/footer/electronic-money.png") no-repeat;
+}
+
+.id-visa{
+    width: 39px;
+    height: 23px;
+    background: url("../img/footer/visa.png") no-repeat;
+}
+
+.id-master-card{
+    width: 38px;
+    height: 25px;
+    background: url("../img/footer/master-card.png") no-repeat;
+}
 
 
 
