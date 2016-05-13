@@ -88,14 +88,18 @@ textarea {
     display: block;
 }
 
-/*
------------------------------------------------------------------------------
-Header
------------------------------------------------------------------------------  */
+
 body{
     font: 14px 'PT Sans', sans-serif;
     background: url("../img/main-background.jpg") repeat;
 }
+
+
+/*
+-----------------------------------------------------------------------------
+Header
+-----------------------------------------------------------------------------  */
+
 
 
 .id-header-outer-wrapper{
@@ -120,7 +124,7 @@ body{
     display: block;
     width: 227px;
     height: 61px;
-    background: url("../img/logo.png") no-repeat;
+    background: url("../img/header/logo.png") no-repeat;
     background-size: 227px;
 }
 
@@ -141,7 +145,7 @@ body{
 }
 
 .id-terms-of-delivery{
-    background: url("../img/delivery.svg") no-repeat 0 -3px;
+    background: url("../img/header/delivery.svg") no-repeat 0 -3px;
     background-size: 37px auto;
     padding-left: 40px;
     width: 54px;
@@ -149,7 +153,7 @@ body{
 }
 
 .id-payment-system{
-    background: url("../img/payment_system.svg") no-repeat 0 3px;
+    background: url("../img/header/payment_system.svg") no-repeat 0 3px;
     background-size: 25px auto;
     padding-left: 26px;
     width: 42px;
@@ -157,7 +161,7 @@ body{
 }
 
 .id-order-status{
-    background: url("../img/order_status.svg") no-repeat 0 3px;
+    background: url("../img/header/order_status.svg") no-repeat 0 3px;
     background-size: 25px auto;
     padding-left: 31px;
     width: 32px;
@@ -165,7 +169,7 @@ body{
 }
 
 .id-ask-question{
-    background: url("../img/ask_question.svg") no-repeat 0 3px;
+    background: url("../img/header/ask_question.svg") no-repeat 0 3px;
     background-size: 26px auto;
     padding-left: 29px;
     width: 36px;
@@ -173,7 +177,7 @@ body{
 }
 
 .id-private-office{
-    background: url("../img/private_office.svg") no-repeat 0 2px;
+    background: url("../img/header/private_office.svg") no-repeat 0 2px;
     background-size: 27px auto;
     padding-left: 32px;
     width: 42px;
@@ -195,7 +199,7 @@ body{
 .id-header-search input[type="submit"]{
     border: none;
     outline: none;
-    background: url("../img/search.svg") no-repeat 1px 1px;
+    background: url("../img/header/search.svg") no-repeat 1px 1px;
     width: 14px;
     position: absolute;
     top: 1px;
@@ -225,7 +229,7 @@ body{
 }
 
 .id-basket{
-    background: url("../img/basket.svg") no-repeat 0 0;
+    background: url("../img/header/basket.svg") no-repeat 0 0;
     background-size: 23px auto;
     padding-left: 28px;
     padding-top: 9px;
@@ -323,7 +327,7 @@ top - line - 2
 .id-image-1{
     width: 354px;
     height: 113px;
-    background: url("../img/block-products-groups/workwoman.jpg") no-repeat;
+    background: url("../img/middle-part-top-line-2/workwoman.jpg") no-repeat;
     margin-right: 11px;
 
 }
@@ -388,7 +392,7 @@ top - line - 2
 
 .id-to-more-news{
     display: block;
-    background: url("../img/block-products-groups/right92.svg") no-repeat;
+    background: url("../img/middle-part-top-line-2/right92.svg") no-repeat;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -411,8 +415,53 @@ top - line - 2
 top - line - 3
 -------------------------------------------------------*/
 
+.id-top-line-3{
+    box-sizing: border-box;
+    height: 35px;
+    margin-top: 18px;
+    background: #7e7f7f;
+}
+
+.id-top-line-3 a{
+    display: block;
+    padding: 5px;
+    margin-right: 12px;
+    margin-top: 2px;
+}
 
 
+.id-top-line-3 .id-left89,
+.id-top-line-3 .id-right92{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+
+
+
+.id-top-line-3 .id-left89{
+    /*box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;*/
+
+    background: url("../img/middle-part-top-line-3/left89.svg") no-repeat;
+    margin-right: 15px;
+
+}
+
+.id-top-line-3 .id-right92{
+   /* box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;*/
+
+    background: url("../img/middle-part-top-line-3/right92.svg") no-repeat;
+    margin-right: 0;
+
+}
 
 
 
