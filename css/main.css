@@ -74,24 +74,14 @@ textarea {
 	padding: 0;
  }
 
-.clear{
-    clear: both;
-}
-
-.left{
-    float: left;
-    display: block;
-}
-
-.right{
-    float: right;
-    display: block;
-}
-
 
 body{
     font: 14px 'PT Sans', sans-serif;
     background: url("../img/main-background.jpg") repeat;
+}
+
+body a:hover, body a:active{
+    color: #f0b35a;
 }
 
 
@@ -99,8 +89,6 @@ body{
 -----------------------------------------------------------------------------
 Header
 -----------------------------------------------------------------------------  */
-
-
 
 .id-header-outer-wrapper{
     background: #000;
@@ -294,9 +282,8 @@ top line
     text-decoration: none;
 }
 
-.id-top-line ul :last-child a{
+.id-top-line a{
     margin-right: 0;
-    color: #f0b35a;
 }
 
 .id-top-line .news a{
@@ -319,22 +306,23 @@ top - line - 2
     box-sizing: border-box;
     width: 630px;
     margin-right: 10px;
-    overflow: hidden;
+
+    /*font-size: 0;*/
 
 }
 
 
 .id-image-1{
     width: 354px;
-    height: 113px;
+    height: 112px;
     background: url("../img/middle-part-top-line-2/workwoman.jpg") no-repeat;
     margin-right: 11px;
-
 }
 
 
 .id-block-products-groups a{
     display: block;
+    float: left;
     box-sizing: border-box;
     width: 80px;
     height: 50px;
@@ -367,10 +355,15 @@ top - line - 2
 .id-news-content{
     box-sizing: border-box;
     width: 180px;
-    height: 173px;
+    height: 176px;
     background: #4a4a4a;
     position: relative;
     overflow: hidden;
+}
+
+.id-news-content a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .id-news-content-1{
@@ -470,36 +463,35 @@ top - line - 4
 
 .id-top-line-4{
     margin-top: 18px;
-    color: #fff;
 }
 
-.id-block-content{
+/*--------------------------------*/
+
+
+.editable-1{
     box-sizing: border-box;
     width: 630px;
     padding: 11px 25px 11px 20px;
     margin-right: 10px;
     background: #4a484a;
+    color: #fff;
 }
 
-.id-block-content .header{
+.editable-1 h4{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.id-block-content .id-text{
-
+.editable-1 p{
     margin-bottom: 14px;
 }
 
-.id-block-content ul{
+.editable-1 ul{
     list-style-position: inside;
 }
 
-
-
-
-
+/*-------------------------*/
 
 .id-block-aside{
     box-sizing: border-box;
@@ -508,6 +500,7 @@ top - line - 4
     background: #3f3d3e;
     font-weight: bold;
     padding: 1px;
+    color: #fff;
 }
 
 .id-block-info{
@@ -716,5 +709,18 @@ footer
 
 .clearfix {
     *zoom: 1;
+}
+
+
+
+
+.left{
+    float: left;
+    display: block;
+}
+
+.right{
+    float: right;
+    display: block;
 }
 
