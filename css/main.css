@@ -685,8 +685,20 @@ editable - 2
     padding: 25px 25px 25px 25px;
 	margin-top: 8px;
     margin-right: 10px;
-    background: #4a484a url("../img/middle-part-top-line-3/close.svg") no-repeat  592px 444px;
+    background: #4a484a;
     color: #fff;
+	
+	position: relative;
+}
+
+.editable-2 .id-close{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/middle-part-top-line-3/close.svg") no-repeat;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;	
 }
 
 .editable-2 h2{

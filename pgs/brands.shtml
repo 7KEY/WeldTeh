@@ -22,15 +22,18 @@
         <![endif]-->
 		
 		
-		<!--#include virtual="../ssi/header.ssi" -->
+		<!--#include virtual="../ssi/header.ssi"-->
 		
 		
-		<!--#include virtual="../ssi/sidebar.ssi" -->
+		<!--#include virtual="../ssi/sidebar.ssi"-->
 		
-		<div class="editable-2"></div>
+		<div class="editable-2">
+				<a href="#" class="id-close"></a>
+		</div>
 		
 		
-		<!--#include virtual="../ssi/footer.ssi" -->
+		
+		<!--#include virtual="../ssi/footer.ssi"-->
 		
  
     </body>
