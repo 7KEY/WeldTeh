@@ -650,14 +650,64 @@ footer
 
 
 
+/*-----------------------------------------------------
+   sidebar
+  ------------------------------------------------------*/
+.sidebar{
+	box-sizing: border-box;
+	width: 180px;
+	margin-top: 8px;
+}
+
+.sidebar .id-top-line-3{
+    box-sizing: border-box;
+	width: 180px;
+    height: 35px;
+    margin-top: 18px;
+	margin-bottom: 18px;
+    background: #7e7f7f;
+}
+
+.sidebar .id-brands-line{
+	width: 120px;
+	overflow: hidden;
+	height: 35px;
+}
 
 
+/* ----------------------------------------------------
+editable - 2
+-----------------------------------------------------*/
+.editable-2{
+    box-sizing: border-box;
+    width: 630px;
+	height: 482px;
+    padding: 25px 25px 25px 25px;
+	margin-top: 8px;
+    margin-right: 10px;
+    background: #4a484a url("../img/middle-part-top-line-3/close.svg") no-repeat  592px 444px;
+    color: #fff;
+}
 
+.editable-2 h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #c1c1c1;
+}
 
+.editable-2 h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+.editable-2 p{
+    margin-bottom: 14px;
+}
 
-
-
+.editable-2 ul{
+    list-style-position: inside;
+}
 
 
 

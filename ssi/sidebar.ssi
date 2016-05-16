@@ -1,0 +1,76 @@
+			<div class="sidebar right clearfix">
+				
+				<div class="id-news-content left clearfix">
+
+					<div class="id-news-content-1 left">
+
+					<div class="news-date">31.06.2015</div>
+						<div class="news-content">
+							<a href="#">
+								Акция «Дачный сезон»<br />
+								При покупке сварочного аппарата
+								Foxweld - перчатки и маска
+								сварщика в подарок.
+							</a>
+						</div>
+					</div>
+
+					<div class="id-news-content-2 left">
+						<div class="news-date">10.09.2015</div>
+						<div class="news-content">
+							<a href="#">
+								Новое поступление электродов
+								ESAB. Электроды Эсаб относятся к самым
+								востребованным в России и СНГ.
+								Ими пользуются в восьми
+								десятках стран.
+							</a>
+						</div>
+					</div>
+
+					<a href="#" class="id-to-more-news"></a>
+
+				</div>
+
+                
+                <div class="id-top-line-3 left clearfix">
+                    <a href="#" class="id-left89 left"></a>
+					<div class="id-brands-line left clearfix">
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/energo.png" alt="Energo" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/elemax.png" alt="Elemax" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/autocut.png" alt="Autocut" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/eisemann.png" alt="Eiseman" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/ewt.png" alt="EWT" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/eurosun.png" alt="Eurosun" /></a>
+						<a href="#" class="left"><img src="../img/middle-part-top-line-3/foxweld.png" alt="Foxweld" /></a>
+					</div>	
+                    <a href="#" class="id-right92 right"></a>
+                </div>
+
+                <div class="id-top-line-4 clearfix">
+
+                    <div class="id-block-aside left">
+                        <div class="id-block-info clearfix">
+
+                            <a href="#" class="id-left89-4 left"></a>
+                            <a href="#" class="id-document left"><img src="../img/middle-part-top-line-4/certificate.jpg" alt="Свидетельство" /></a>
+                            <a href="#" class="id-right92-4 right"></a>
+
+                        </div>
+
+                        <div class="id-block-contacts">
+
+                            <div class="id-contacts-1">Всегда на связи!</div>
+                            <div class="id-contacts-2 clearfix">
+
+                                <a href="#" class="id-skype left"></a>
+                                <a href="#" class="id-facebook left"></a>
+                                <a href="#" class="id-youtube left"></a>
+                                <a href="#" class="id-telephone left"></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>        
