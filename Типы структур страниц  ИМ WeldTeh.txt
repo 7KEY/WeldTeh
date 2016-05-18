@@ -1,0 +1,20 @@
+index.html 																										-  1 страниц
+footer + header + menu + right sidebar(type 1) 	+ left 	 content --> (типа "Контексная зона")					-  7 страниц
+footer + header + menu + right sidebar(type 1) 	+ left 	 content --> (типа "Прайс-лист")						-  5 страниц
+footer + header + menu 							+ center content --> (типа "Новости")							-  1 страниц
+footer + header + menu 							+ center content --> (типа "Каталог продукции")					-  3 страниц
+footer + header + menu + left  sidebar(type 2) 	+ right  content --> (типа "Корзина")							- 12 страниц
+footer + header + menu + right sidebar(type 1) 	+ left 	 content --> (типа "Личный кабинет")					- 25 страниц
+footer-+ header + menu + right sidebar(type 1) 	+ left   content --> (типа "Заказать обратный звонок)			-  1 страниц
+footer + header + menu + right sidebar(type 1) 	+ left 	 content --> (типа "Статус заказа (статусы заказа)")	-  1 страниц
+footer + header + menu + left  sidebar(type 3) 	+ right  content --> (типа "Сварочные инверторы 2-4")			-  3 страниц
+footer + header + menu + right sidebar(type 4) 	+ left 	 content --> (типа "Сварочные инверторы")				-  1 страниц
+-------------------------------------------------------------------------------------------------------------------------
+
+Итого:																											- 60 страниц 
+
+
+
+
+
+

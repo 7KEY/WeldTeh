@@ -21,11 +21,11 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-		
+
         <div class="id-header-outer-wrapper clearfix">
             <div class="id-header-inner-wrapper clearfix">
                 <div class="id-header-logotip left">
-                    <a href="../index.html"></a>
+                    <a href="../index.shtml"></a>
                 </div>
                 <div class="id-header-center-wrapper left">
                     <div class="id-header-menu clearfix">
@@ -59,13 +59,13 @@
                 <div class="id-top-line clearfix">
 
                     <ul class="menu left">
-                        <li class="left"><a href="#">Главная</a></li>
+                        <li class="left"><a href="../index.shtml">Главная</a></li>
                         <li class="left"><a href="#">Каталог продукции</a></li>
-                        <li class="left"><a href="#">Прайс-лист</a></li>
-                        <li class="left"><a href="#">Оптовикам</a></li>
-                        <li class="left"><a href="#">Контакты</a></li>
-                        <li class="left"><a href="#">Акции</a></li>
-                        <li class="left"><a href="#">Сервисный-центр</a></li>
+                        <li class="left"><a href="../pgs/price_list.shtml">Прайс-лист</a></li>
+                        <li class="left"><a href="../pgs/wholesalers.shtml">Оптовикам</a></li>
+                        <li class="left"><a href="../pgs/contacts.shtml">Контакты</a></li>
+                        <li class="left"><a href="../pgs/events.shtml">Акции</a></li>
+                        <li class="left"><a href="../pgs/service_center.shtml">Сервисный-центр</a></li>
                     </ul>
                     <div class="news left"><a href="#">Новости</a></div>
                 </div>

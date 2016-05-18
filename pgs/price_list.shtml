@@ -1,0 +1,17 @@
+
+		<!--#include virtual="../ssi/header.ssi"-->
+
+
+		<!--#include virtual="../ssi/sidebar.ssi"-->
+
+		<div class="editable-3">
+            <h2>Прайс-лист</h2>
+            <h3>Полный прайс-лист продукции WeldTeh:</h3>
+            <a href="#">Скачать прайс-лист</a>
+
+			<a href="#" class="id-close"></a>
+        </div>
+
+
+		<!--#include virtual="../ssi/footer.ssi"-->
+

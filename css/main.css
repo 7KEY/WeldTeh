@@ -687,7 +687,7 @@ editable - 2
     margin-right: 10px;
     background: #4a484a;
     color: #fff;
-	
+
 	position: relative;
 }
 
@@ -698,13 +698,14 @@ editable - 2
 	background: url("../img/middle-part-top-line-3/close.svg") no-repeat;
 	position: absolute;
 	right: 15px;
-	bottom: 15px;	
+	bottom: 15px;
 }
 
 .editable-2 h2{
     font-size: 25px;
     font-weight: bold;
     color: #c1c1c1;
+    margin-bottom: 20px;
 }
 
 .editable-2 h4{
@@ -714,12 +715,100 @@ editable - 2
 }
 
 .editable-2 p{
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .editable-2 ul{
     list-style-position: inside;
+    margin-bottom: 20px;
 }
+
+.editable-2 a{
+    color: #007bbb;
+    font-size: 16.67px;
+    text-decoration: none;
+}
+
+
+
+/* ----------------------------------------------------
+editable - 3
+-----------------------------------------------------*/
+.editable-3{
+    box-sizing: border-box;
+    width: 630px;
+    height: 482px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    background: url("../img/middle-part-top-line-4/background-editable-3.png") repeat;
+    color: #fff;
+
+    position: relative;
+}
+
+.editable-3 .id-close{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/middle-part-top-line-3/close.svg") no-repeat;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.editable-3 h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a2a2a2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.editable-3 h3{
+    font-size: 16.67px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.editable-3 h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.editable-3 p{
+    color: #fff;
+    font-size: 16px;
+    text-indent: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.editable-3 .adress{
+    font-size: 16.67px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editable-3 .tel{
+    color: #008cbf;
+    font-size: 16.67px;
+}
+
+.editable-3 ul{
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.editable-3 a{
+    color: #008cbf;
+    font-size: 16.67px;
+    text-decoration: none;
+}
+
 
 
 
