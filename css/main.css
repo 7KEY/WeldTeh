@@ -741,7 +741,8 @@ editable - 3
     padding: 20px 20px 20px 20px;
     margin-top: 8px;
     margin-right: 10px;
-    background: url("../img/middle-part-top-line-4/background-editable-3.png") repeat;
+    /*background: url("../img/middle-part-top-line-4/background-editable-3.png") repeat;*/
+    background: rgba(255,255,255,0.08);
     color: #fff;
 
     position: relative;
