@@ -790,6 +790,22 @@ editable - 3
     position: relative;
 }
 
+.editable-3.news{
+    width: 822px;
+}
+
+.editable-3.catalog{
+    width: 822px;
+}
+
+.editable-3.catalog > div{
+    width: 711px;
+    height: 392px;
+    margin: auto;
+    background: rgba(255,255,255,0.05);
+    padding: 20px 30px;
+}
+
 .editable-3 .id-close{
     display: block;
     width: 15px;
@@ -821,6 +837,10 @@ editable - 3
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.editable-3 h5{
+     margin-bottom: 10px;
 }
 
 .editable-3 p{

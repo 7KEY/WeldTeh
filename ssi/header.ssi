@@ -60,12 +60,12 @@
 
                     <ul class="menu left">
                         <li class="left"><a href="../pgs/index.html">Главная</a></li>
-                        <li class="left"><a href="../pgs/#">Каталог продукции</a></li>
+                        <li class="left"><a href="../pgs/catalog.html">Каталог продукции</a></li>
                         <li class="left"><a href="../pgs/price_list.html">Прайс-лист</a></li>
                         <li class="left"><a href="../pgs/wholesalers.html">Оптовикам</a></li>
                         <li class="left"><a href="../pgs/contacts.html">Контакты</a></li>
                         <li class="left"><a href="../pgs/events.html">Акции</a></li>
                         <li class="left"><a href="../pgs/service_center.html">Сервисный-центр</a></li>
                     </ul>
-                    <div class="news left"><a href="../pgs/#">Новости</a></div>
+                    <div class="news left"><a href="../pgs/news.html">Новости</a></div>
                 </div>
