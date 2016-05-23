@@ -9,13 +9,13 @@
                     <div class="container">
                         <div class="footer-header">О компании</div>
                         <ul>
-                            <li><a href="../pgs/weldteh.shtml">WELDTEH</a></li>
-                            <li><a href="../pgs/certificates.shtml">Сертификаты</a></li>
+                            <li><a href="../pgs/weldteh.html">WELDTEH</a></li>
+                            <li><a href="../pgs/certificates.html">Сертификаты</a></li>
                             <li><a href="#">Новости</a></li>
                             <li><a href="#">Доставка</a></li>
-                            <li><a href="../pgs/manufacturers.shtml">Производители</a></li>
-                            <li><a href="../pgs/working_conditions.shtml">Условия работы</a></li>
-                            <li><a href="../pgs/purchase_returns.shtml">Возврат товара</a></li>
+                            <li><a href="../pgs/manufacturers.html">Производители</a></li>
+                            <li><a href="../pgs/working_conditions.html">Условия работы</a></li>
+                            <li><a href="../pgs/purchase_returns.html">Возврат товара</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </div>
@@ -29,7 +29,7 @@
                         <ul>
                             <li><a href="#">Отслеживание заказов</a></li>
                             <li><a href="#">Отгрузка</a></li>
-                            <li><a href="../pgs/faq.shtml">Часто задаваемые вопросы</a></li>
+                            <li><a href="../pgs/faq.html">Часто задаваемые вопросы</a></li>
                         </ul>
                     </div>
 
