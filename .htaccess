@@ -1,4 +1,4 @@
 AddDefaultCharset Off
 <IfModule dir_module>
-    DirectoryIndex index.html
+    DirectoryIndex pgs/index.html
 </IfModule>

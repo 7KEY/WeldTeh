@@ -1,12 +1,12 @@
 			<div class="sidebar right clearfix">
-				
+
 				<div class="id-news-content left clearfix">
 
 					<div class="id-news-content-1 left">
 
 					<div class="news-date">31.06.2015</div>
 						<div class="news-content">
-							<a href="#">
+							<a href="../pgs/#">
 								Акция «Дачный сезон»<br />
 								При покупке сварочного аппарата
 								Foxweld - перчатки и маска
@@ -18,7 +18,7 @@
 					<div class="id-news-content-2 left">
 						<div class="news-date">10.09.2015</div>
 						<div class="news-content">
-							<a href="#">
+							<a href="../pgs/#">
 								Новое поступление электродов
 								ESAB. Электроды Эсаб относятся к самым
 								востребованным в России и СНГ.
@@ -28,11 +28,11 @@
 						</div>
 					</div>
 
-					<a href="#" class="id-to-more-news"></a>
+					<a href="../pgs/#" class="id-to-more-news"></a>
 
 				</div>
 
-                
+
                 <div class="id-top-line-3 left clearfix">
                     <a href="#" class="id-left89 left"></a>
 					<div class="id-brands-line left clearfix">
@@ -43,7 +43,7 @@
 						<a href="#" class="left"><img src="../img/middle-part-top-line-3/ewt.png" alt="EWT" /></a>
 						<a href="#" class="left"><img src="../img/middle-part-top-line-3/eurosun.png" alt="Eurosun" /></a>
 						<a href="#" class="left"><img src="../img/middle-part-top-line-3/foxweld.png" alt="Foxweld" /></a>
-					</div>	
+					</div>
                     <a href="#" class="id-right92 right"></a>
                 </div>
 
@@ -73,4 +73,4 @@
                         </div>
                     </div>
                 </div>
-            </div>        
+            </div>

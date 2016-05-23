@@ -1,6 +1,6 @@
 		</div>
 		</div>
-		
+
         <div class="id-footer-outer-wrapper">
             <div class="id-footer-inner-wrapper clearfix">
 
@@ -11,12 +11,12 @@
                         <ul>
                             <li><a href="../pgs/weldteh.html">WELDTEH</a></li>
                             <li><a href="../pgs/certificates.html">Сертификаты</a></li>
-                            <li><a href="#">Новости</a></li>
-                            <li><a href="#">Доставка</a></li>
+                            <li><a href="../pgs/#">Новости</a></li>
+                            <li><a href="../pgs/#">Доставка</a></li>
                             <li><a href="../pgs/manufacturers.html">Производители</a></li>
                             <li><a href="../pgs/working_conditions.html">Условия работы</a></li>
                             <li><a href="../pgs/purchase_returns.html">Возврат товара</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="../pgs/#">Контакты</a></li>
                         </ul>
                     </div>
 
@@ -27,8 +27,8 @@
                     <div class="container">
                         <div class="footer-header">Клиент сервис</div>
                         <ul>
-                            <li><a href="#">Отслеживание заказов</a></li>
-                            <li><a href="#">Отгрузка</a></li>
+                            <li><a href="../pgs/#">Отслеживание заказов</a></li>
+                            <li><a href="../pgs/#">Отгрузка</a></li>
                             <li><a href="../pgs/faq.html">Часто задаваемые вопросы</a></li>
                         </ul>
                     </div>
@@ -36,9 +36,9 @@
                     <div class="container">
                         <div class="footer-header">Сервисный центр</div>
                         <ul>
-                            <li><a href="#">Ремонт</a></li>
-                            <li><a href="#">Прейскурант</a></li>
-                            <li><a href="#">Гарантийное обслуживание</a></li>
+                            <li><a href="../pgs/#">Ремонт</a></li>
+                            <li><a href="../pgs/#">Прейскурант</a></li>
+                            <li><a href="../pgs/#">Гарантийное обслуживание</a></li>
                         </ul>
                     </div>
 
@@ -49,18 +49,18 @@
                     <div class="container">
                         <div class="footer-header">Выгодно</div>
                         <ul>
-                            <li><a href="#">Акции</a></li>
-                            <li><a href="#">Спецпредложения</a></li>
-                            <li><a href="#">Выгодные покупки</a></li>
+                            <li><a href="../pgs/#">Акции</a></li>
+                            <li><a href="../pgs/#">Спецпредложения</a></li>
+                            <li><a href="../pgs/#">Выгодные покупки</a></li>
                         </ul>
                     </div>
 
                     <div class="container">
                         <div class="footer-header">Новости</div>
                         <ul>
-                            <li><a href="#">Статьи</a></li>
-                            <li><a href="#">Обзоры</a></li>
-                            <li><a href="#">Документы</a></li>
+                            <li><a href="../pgs/#">Статьи</a></li>
+                            <li><a href="../pgs/#">Обзоры</a></li>
+                            <li><a href="../pgs/#">Документы</a></li>
                         </ul>
                     </div>
 
@@ -99,13 +99,12 @@
             </div>
 
         </div>
-		
+
 		 <!-- <script src="js/main.js"></script> -->
 
     </body>
 
 </html>
-		
-		
-		
-		
+
+
+

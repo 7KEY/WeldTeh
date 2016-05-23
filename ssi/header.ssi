@@ -25,15 +25,15 @@
         <div class="id-header-outer-wrapper clearfix">
             <div class="id-header-inner-wrapper clearfix">
                 <div class="id-header-logotip left">
-                    <a href="../index.html"></a>
+                    <a href="../pgs/index.html"></a>
                 </div>
                 <div class="id-header-center-wrapper left">
                     <div class="id-header-menu clearfix">
-                        <a href="#" class="id-terms-of-delivery left">Условия доставки</a>
-                        <a href="#" class="id-payment-system left">Система оплаты</a>
-                        <a href="#" class="id-order-status left">Статус заказа</a>
-                        <a href="#" class="id-ask-question left">Задай вопрос</a>
-                        <a href="#" class="id-private-office left">Личный кабинет</a>
+                        <a href="../pgs/#" class="id-terms-of-delivery left">Условия доставки</a>
+                        <a href="../pgs/#" class="id-payment-system left">Система оплаты</a>
+                        <a href="../pgs/#" class="id-order-status left">Статус заказа</a>
+                        <a href="../pgs/#" class="id-ask-question left">Задай вопрос</a>
+                        <a href="../pgs/#" class="id-private-office left">Личный кабинет</a>
                     </div>
                     <div class="id-header-search">
                         <form action="#" method="post">
@@ -48,7 +48,7 @@
                     <div class="telefon"><a href="tel:+73512115903">+7 (351) 211-59-03</a></div>
                     <div class="telefon"><a href="tel:+73512351312">+7 (351) 235-13-12</a></div>
                     <div class="basket">
-                        <a href="#" class="id-basket">Корзина</a><span class="id-total">0.00</span>
+                        <a href="../pgs/#" class="id-basket">Корзина</a><span class="id-total">0.00</span>
                     </div>
                 </div>
             </div>
@@ -59,13 +59,13 @@
                 <div class="id-top-line clearfix">
 
                     <ul class="menu left">
-                        <li class="left"><a href="../index.html">Главная</a></li>
-                        <li class="left"><a href="#">Каталог продукции</a></li>
+                        <li class="left"><a href="../pgs/index.html">Главная</a></li>
+                        <li class="left"><a href="../pgs/#">Каталог продукции</a></li>
                         <li class="left"><a href="../pgs/price_list.html">Прайс-лист</a></li>
                         <li class="left"><a href="../pgs/wholesalers.html">Оптовикам</a></li>
                         <li class="left"><a href="../pgs/contacts.html">Контакты</a></li>
                         <li class="left"><a href="../pgs/events.html">Акции</a></li>
                         <li class="left"><a href="../pgs/service_center.html">Сервисный-центр</a></li>
                     </ul>
-                    <div class="news left"><a href="#">Новости</a></div>
+                    <div class="news left"><a href="../pgs/#">Новости</a></div>
                 </div>
