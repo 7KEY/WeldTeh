@@ -245,7 +245,7 @@ middle part
 
 .id-middle-part-inner-wrapper{
     width: 822px;
-    margin: 15px auto;
+    margin: 15px auto 0 auto;
     padding-top: 1px;
 }
 
@@ -412,12 +412,12 @@ top - line - 2
 }
 
 .news-date{
-    font-size: 12.5px;
+    font-size: 12px;
     color: #d79f45;
 }
 
 .news-content{
-    font-size: 10.42px;
+    font-size: 10px;
     color: #ffffff;
     overflow: hidden;
 }
@@ -643,7 +643,7 @@ footer
 }
 
 .footer-header{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 2px;
@@ -765,7 +765,7 @@ editable - 2
 
 .editable-2 a{
     color: #007bbb;
-    font-size: 16.67px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -779,9 +779,9 @@ editable - 3
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 630px;
-    height: 482px;
-    padding: 25px 25px 25px 25px;
-    margin-top: 8px;
+    height: 490px;
+    padding: 15px 15px 15px 15px;
+    /*margin-top: 8px;*/
     margin-right: 10px;
     /*background: url("../img/middle-part-top-line-4/background-editable-3.png") repeat;*/
     background: rgba(255,255,255,0.08);
@@ -790,31 +790,288 @@ editable - 3
     position: relative;
 }
 
-.editable-3.news{
+.editable-3.news, .editable-3.catalog, .editable-3.basket{
     width: 822px;
+    padding: 13px;
 }
 
-.editable-3.catalog{
-    width: 822px;
+.editable-3.basket .basket-sidebar{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 235px;
+    height: 465px;
+
+    padding: 10px 10px;
+    margin: 0 20px 0 0;
+
+    background: #7f7f7f;
+
+    /*background: rgba(255,255,255,0.08);*/
+    /*color: #fff;*/
+
+    /*position: relative;*/
+}
+
+.editable-3.basket .basket-content{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 540px;
+    height: 465px;
+
+    padding: 15px 15px;
+    margin: 0 0 0 0;
+
+    background: #ffffff;
+    color: #000;
+
+    /*background: rgba(255,255,255,0.08);*/
+    /*color: #fff;*/
+
+    /*position: relative;*/
+}
+
+.editable-3.basket .basket-content .path{
+    font-size: 12px;
+}
+
+.editable-3.basket .basket-content .path a{
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.editable-3.basket .basket-content table{
+    width: 514px;
+    height: 49px;
+    font-size: 13px;
+
+
+    text-align: center;
+
+
+}
+
+.editable-3.basket .basket-content table .table-header{
+    border: solid 1px rgba(0,0,0,.54);
+    background-image: -webkit-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -moz-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -o-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -ms-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: linear-gradient(to top, rgba(29,6,0,.15), rgba(255,255,255,.15));
+
+    font-size: 17px;
+    font-weight: normal;
+    height: 45px;
+}
+
+.editable-3.basket .basket-content table tr td{
+    padding: 10px 5px;
+    border-bottom: 3px solid #e4e5e4;
+}
+
+.editable-3.basket .basket-content table tbody > :last-child {
+    border-top: 6px solid #a5a5a5;
+    border-bottom: 0;
+}
+
+.editable-3.basket .basket-content table tbody > :last-child td{
+    border-bottom: 0;
+
+}
+
+.editable-3.basket .basket-content table tbody tr td > div{
+   text-transform: uppercase;
+}
+
+
+.editable-3.basket .basket-content table td:nth-of-type(1n+4) {
+    text-align: right;
+}
+
+.editable-3.basket .basket-content table :last-child :last-child :last-child{
+    color: #008cba;
+}
+
+.editable-3.basket .basket-content table :last-child :last-child :first-child{
+    font-size: 17px;
+}
+
+
+.editable-3.basket .basket-content .id-gray-line{
+
+    -webkit-box-shadow: inset -1px 1px 1px rgba(29,6,0,.54), inset 0 0 1px rgba(251,246,189,.75);
+    -moz-box-shadow: inset -1px 1px 1px rgba(29,6,0,.54), inset 0 0 1px rgba(251,246,189,.75);
+    box-shadow: inset -1px 1px 1px rgba(29,6,0,.54), inset 0 0 1px rgba(251,246,189,.75);
+
+    background-image: -webkit-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -moz-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -o-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -ms-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: linear-gradient(to top, rgba(29,6,0,.15), rgba(255,255,255,.15));
+
+    width: 512px;
+    height: 7px;
+
+    margin-bottom: 20px;
+}
+
+
+.editable-3.basket .blue-button{
+
+    -webkit-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+    -moz-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+    box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+
+    width: 215px;
+    height: 34px;
+
+    background: #007bbb;
+    margin: 10px auto;
+    font: 17px 'PT Sans', sans-serif;
+    color: #fff;
+}
+
+.editable-3.basket .basket-content .blue-button{
+    float: right;
+}
+
+
+.editable-3.basket .gray-button{
+
+    border: solid 1px rgba(0,0,0,.54);
+
+    background-image: -webkit-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -moz-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -o-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: -ms-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
+    background-image: linear-gradient(to top, rgba(29,6,0,.15), rgba(255,255,255,.15));
+
+    width: 168px;
+    height: 39px;
+
+    margin: 10px auto;
+    font: 17px 'PT Sans', sans-serif;
+    color: #007bbb;
+}
+
+
+.editable-3.basket .id-buyer-type .gray-button{
+    display: block;
+    margin: 10px 200px 10px 0;
 }
 
 .editable-3.catalog > div{
-    width: 711px;
-    height: 392px;
+    width: 750px;
+    height: 430px;
     margin: auto;
     background: rgba(255,255,255,0.05);
-    padding: 20px 30px;
+    padding: 15px 15px;
 }
+
+.editable-3.catalog > div .products-groups{
+    margin: auto;
+}
+
+.editable-3.basket .id-buyer-type{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 510px;
+    height: 235px;
+
+    padding: 10px;
+}
+
+.editable-3.basket .id-buyer-type > div{
+    padding: 10px;
+    margin: 10px 10px 10px 30px;
+}
+
 
 .editable-3 .id-close{
     display: block;
     width: 15px;
     height: 15px;
-    background: url("../img/middle-part-top-line-3/close.svg") no-repeat;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background: url("../img/middle-part-top-line-3/close.svg") no-repeat 3px 2px;
+
     position: absolute;
     right: 10px;
     bottom: 10px;
+
+    padding: 10px;
+    margin: 7px;
 }
+
+.editable-3.catalog .id-close{
+    /*display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/middle-part-top-line-3/close.svg") no-repeat;
+    position: absolute;
+    */
+    padding: 10px;
+    margin: 7px;
+
+    right: 30px;
+    bottom: 32px;
+}
+
+
+.editable-3.catalog .id-left89{
+    display: block;
+
+    position: absolute;
+    right: 65px;
+    bottom: 30px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 30px;
+    height: 30px;
+
+    background: url("../img/middle-part-top-line-3/left89.svg") no-repeat 5px 5px;
+
+    padding: 10px;
+    margin: 7px;
+
+}
+
+
+
+.editable-3.catalog .id-right92{
+    display: block;
+
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 30px;
+    height: 30px;
+
+    background: url("../img/middle-part-top-line-3/right92.svg") no-repeat 5px 5px;
+
+    padding: 10px;
+    margin: 7px;
+}
+
+
+
 
 .editable-3 h2{
     font-size: 25px;
@@ -828,7 +1085,7 @@ editable - 3
 }
 
 .editable-3 h3{
-    font-size: 16.67px;
+    font-size: 17px;
     font-weight: normal;
     margin-bottom: 25px;
 }
@@ -845,20 +1102,20 @@ editable - 3
 
 .editable-3 p{
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     text-indent: 20px;
     /*margin-bottom: 20px;*/
 }
 
 .editable-3 .adress{
-    font-size: 16.67px;
+    font-size: 17px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .editable-3 .tel{
     color: #008cbf;
-    font-size: 16.67px;
+    font-size: 17px;
 }
 
 .editable-3 ul{
@@ -867,10 +1124,23 @@ editable - 3
 }
 
 .editable-3 a{
+
+    display: inline-block;
+
+    padding: 0 30px 20px 0;
+    margin: 0 21px 0 0;
+
     color: #008cbf;
-    font-size: 16.67px;
+    font-size: 17px;
     text-decoration: none;
 }
+
+
+.editable-3.catalog > div .products-groups a{
+   width: 124px;
+}
+
+
 
 
 

@@ -1,0 +1,18 @@
+            <div class="basket-sidebar left">
+                <input type="button" class="blue-button"   value="Создать новый список" />
+                <input type="button" class="blue-button"   value="Пополнить список" />
+                <div>Оформите покупку на сайте
+                     или распечатайте список и
+                     возьмите его с собой в магазин.
+                     Не забудьте предварительно
+                     проверить наличие выбранных
+                     товаров на складе. Внимание!
+                     Цены в магазине WeldTeh могут
+                     отличаться от представленных
+                     на сайте. Точную цену товара
+                     узнавайте в магазине
+                </div>
+                <input type="button" class="blue-button"   value="Сохранить" />
+                <input type="button" class="blue-button"   value="Распечатать" />
+                <input type="button" class="blue-button"   value="Отправить на почту" />
+            </div>

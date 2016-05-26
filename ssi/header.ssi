@@ -48,7 +48,7 @@
                     <div class="telefon"><a href="tel:+73512115903">+7 (351) 211-59-03</a></div>
                     <div class="telefon"><a href="tel:+73512351312">+7 (351) 235-13-12</a></div>
                     <div class="basket">
-                        <a href="../pgs/#" class="id-basket">Корзина</a><span class="id-total">0.00</span>
+                        <a href="../pgs/basket.html" class="id-basket">Корзина</a><span class="id-total">0.00</span>
                     </div>
                 </div>
             </div>

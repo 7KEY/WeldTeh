@@ -11,7 +11,7 @@
                         <ul>
                             <li><a href="../pgs/weldteh.html">WELDTEH</a></li>
                             <li><a href="../pgs/certificates.html">Сертификаты</a></li>
-                            <li><a href="../pgs/#">Новости</a></li>
+                            <li><a href="../pgs/news.html">Новости</a></li>
                             <li><a href="../pgs/#">Доставка</a></li>
                             <li><a href="../pgs/manufacturers.html">Производители</a></li>
                             <li><a href="../pgs/working_conditions.html">Условия работы</a></li>
@@ -69,9 +69,9 @@
                 <div class="id-footer-column-4 left">
 
                     <ul>
-                        <li><a href="#" class="id-electronic-money"></a></li>
-                        <li><a href="#" class="id-visa"></a></li>
-                        <li><a href="#" class="id-master-card"></a></li>
+                        <li><a href="../pgs/#" class="id-electronic-money"></a></li>
+                        <li><a href="../pgs/#" class="id-visa"></a></li>
+                        <li><a href="../pgs/#" class="id-master-card"></a></li>
                     </ul>
 
                 </div>
