@@ -6,7 +6,7 @@
 
 					<div class="news-date">31.06.2015</div>
 						<div class="news-content">
-							<a href="../pgs/#">
+							<a href="../pgs/news.html">
 								Акция «Дачный сезон»<br />
 								При покупке сварочного аппарата
 								Foxweld - перчатки и маска
@@ -18,7 +18,7 @@
 					<div class="id-news-content-2 left">
 						<div class="news-date">10.09.2015</div>
 						<div class="news-content">
-							<a href="../pgs/#">
+							<a href="../pgs/news.html">
 								Новое поступление электродов
 								ESAB. Электроды Эсаб относятся к самым
 								востребованным в России и СНГ.
@@ -28,7 +28,7 @@
 						</div>
 					</div>
 
-					<a href="../pgs/#" class="id-to-more-news"></a>
+					<a href="../pgs/news.html" class="id-to-more-news"></a>
 
 				</div>
 
@@ -52,9 +52,9 @@
                     <div class="id-block-aside left">
                         <div class="id-block-info clearfix">
 
-                            <a href="#" class="id-left89-4 left"></a>
-                            <a href="#" class="id-document left"><img src="../img/middle-part-top-line-4/certificate.jpg" alt="Свидетельство" /></a>
-                            <a href="#" class="id-right92-4 right"></a>
+                            <a href="../pgs/certificates.html" class="id-left89-4 left"></a>
+                            <a href="../pgs/certificates.html" class="id-document left"><img src="../img/middle-part-top-line-4/certificate.jpg" alt="Свидетельство" /></a>
+                            <a href="../pgs/certificates.html" class="id-right92-4 right"></a>
 
                         </div>
 
