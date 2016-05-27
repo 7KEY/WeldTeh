@@ -501,6 +501,7 @@ top - line - 4
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 630px;
+    min-height: 236px;
     padding: 11px 25px 11px 20px;
     margin-right: 10px;
     background: #4a484a;
@@ -528,6 +529,7 @@ top - line - 4
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 180px;
+    min-height: 236px;
     margin-right: 0;
     background: #3f3d3e;
     font-weight: bold;
@@ -721,7 +723,7 @@ editable - 2
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 630px;
-	height: 482px;
+	min-height: 482px;
     padding: 25px 25px 25px 25px;
 	margin-top: 8px;
     margin-right: 10px;
@@ -779,7 +781,7 @@ editable - 3
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 630px;
-    height: 490px;
+    min-height: 490px;
     padding: 15px 15px 15px 15px;
     /*margin-top: 8px;*/
     margin-right: 10px;
@@ -801,9 +803,9 @@ editable - 3
     box-sizing: border-box;
 
     width: 235px;
-    height: 465px;
+    min-height: 478px;
 
-    padding: 10px 10px;
+    padding: 13px 10px;
     margin: 0 20px 0 0;
 
     background: #7f7f7f;
@@ -820,7 +822,7 @@ editable - 3
     box-sizing: border-box;
 
     width: 540px;
-    height: 465px;
+    min-height: 478px;
 
     padding: 15px 15px;
     margin: 0 0 0 0;
@@ -883,7 +885,15 @@ editable - 3
 
 }
 
-.editable-3.basket .basket-content table tbody tr td > div{
+.editable-3.basket .basket-content table tbody tr td > a{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    line-height: 1;
+}
+
+.editable-3.basket .basket-content table tbody tr td > a > div{
    text-transform: uppercase;
 }
 
@@ -921,6 +931,11 @@ editable - 3
 
 
 .editable-3.basket .blue-button{
+    display: block;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
     -webkit-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
     -moz-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
@@ -931,12 +946,18 @@ editable - 3
 
     background: #007bbb;
     margin: 10px auto;
+    padding: 5px;
+    text-align: center;
     font: 17px 'PT Sans', sans-serif;
     color: #fff;
 }
 
 .editable-3.basket .basket-content .blue-button{
     float: right;
+}
+
+.editable-3.basket .basket-sidebar .blue-button{
+    margin-top: 16px;
 }
 
 
@@ -966,7 +987,7 @@ editable - 3
 
 .editable-3.catalog > div{
     width: 750px;
-    height: 430px;
+    min-height: 430px;
     margin: auto;
     background: rgba(255,255,255,0.05);
     padding: 15px 15px;
