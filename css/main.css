@@ -802,11 +802,11 @@ editable - 3
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    width: 235px;
+    width: 240px;
     min-height: 478px;
 
     padding: 13px 10px;
-    margin: 0 20px 0 0;
+    margin: 0 15px 0 0;
 
     background: #7f7f7f;
 
@@ -941,7 +941,7 @@ editable - 3
     -moz-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
     box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
 
-    width: 215px;
+    width: 220px;
     height: 34px;
 
     background: #007bbb;
@@ -963,6 +963,12 @@ editable - 3
 
 .editable-3.basket .gray-button{
 
+    display: block;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
     border: solid 1px rgba(0,0,0,.54);
 
     background-image: -webkit-linear-gradient(bottom, rgba(29,6,0,.15), rgba(255,255,255,.15));
@@ -975,14 +981,19 @@ editable - 3
     height: 39px;
 
     margin: 10px auto;
+    text-align: center;
     font: 17px 'PT Sans', sans-serif;
     color: #007bbb;
 }
 
+.editable-3.basket .gray-button input[type="radio"]{
+    display: none;
+}
+
 
 .editable-3.basket .id-buyer-type .gray-button{
-    display: block;
-    margin: 10px 200px 10px 0;
+    margin: 15px 200px 10px 0;
+    padding: 5px;
 }
 
 .editable-3.catalog > div{
@@ -1003,14 +1014,14 @@ editable - 3
     box-sizing: border-box;
 
     width: 510px;
-    height: 235px;
+    height: 290px;
 
     padding: 10px;
 }
 
 .editable-3.basket .id-buyer-type > div{
     padding: 10px;
-    margin: 10px 10px 10px 30px;
+    margin: 20px 10px 10px 30px;
 }
 
 
