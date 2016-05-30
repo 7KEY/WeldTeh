@@ -838,12 +838,33 @@ editable - 3
 
 .editable-3.basket .basket-content .path{
     font-size: 12px;
+    margin-top: 10px;
+}
+
+.editable-3.basket .basket-content .path span{
+    padding: 5px;
 }
 
 .editable-3.basket .basket-content .path a{
     padding: 5px;
     margin: 0;
     font-size: 12px;
+}
+
+.editable-3.basket .basket-content .id-ready{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+
+.editable-3.basket .basket-content .id-ready a{
+    font-size: 15px;
+    padding: 10px 10px 0 0;
+}
+
+.editable-3.basket .basket-content .id-ready .note{
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .editable-3.basket .basket-content table{
@@ -929,6 +950,10 @@ editable - 3
     margin-bottom: 20px;
 }
 
+.editable-3.basket .basket-content .id-gray-line.mod1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .editable-3.basket .blue-button{
     display: block;
@@ -951,6 +976,14 @@ editable - 3
     font: 17px 'PT Sans', sans-serif;
     color: #fff;
 }
+
+.editable-3.basket .basket-content .about_payment_systems{
+    display: block;
+    font-size: 12px;
+    margin: 0 0 0 130px;
+    padding: 5px;
+}
+
 
 .editable-3.basket .basket-content .blue-button{
     float: right;
@@ -991,13 +1024,20 @@ editable - 3
 }
 
 
-.editable-3.basket .id-buyer-type .gray-button{
-    margin: 15px 200px 10px 0;
+.editable-3.basket .gray-button{
     padding: 5px;
     cursor: pointer;
 }
 
-.editable-3.basket .id-buyer-type .gray-button input:checked + span{
+.editable-3.basket .id-buyer-type .gray-button{
+    margin: 15px 200px 10px 0;
+}
+
+.editable-3.basket .id-payment-method .gray-button{
+    margin: 15px 40px 15px 10px;
+}
+
+.editable-3.basket .gray-button input:checked + span{
     font-weight: bold;
 }
 
@@ -1029,6 +1069,39 @@ editable - 3
     margin: 20px 10px 10px 30px;
 }
 
+.editable-3.basket .id-payment-method > div{
+    padding: 10px;
+    margin: 20px 10px 10px 90px;
+}
+
+.editable-3.basket .basket-content form{
+    margin: 70px 60px 60px 60px;
+}
+
+.editable-3.basket .basket-content form .text-field-label{
+    display: block;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+}
+
+.editable-3.basket .basket-content form .blue-button{
+    margin-top: 30px;
+}
+
+.editable-3.basket .basket-content input{
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 220px;
+    height: 20px;
+
+    padding: 5px;
+
+    border: 1px solid #6e6d6d;
+    border-radius: 3px;
+}
 
 .editable-3 .id-close{
     display: block;
@@ -1242,6 +1315,10 @@ editable - 3
 
 .right{
     float: right;
+    display: block;
+}
+
+.block{
     display: block;
 }
 
