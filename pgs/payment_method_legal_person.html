@@ -1,0 +1,66 @@
+
+		<!--#include virtual="../ssi/header.ssi"-->
+
+
+		<div class="editable-3 basket clearfix">
+
+            <!--#include virtual="../ssi/basket-sidebar.ssi"-->
+
+            <div class="basket-content right">
+                <div class="path">
+                    <a href="index.html">Главная</a>/
+                    <a href="basket.html">Корзина</a>/
+                    <a href="basket-buyer_type.html">Тип покупателя</a>/
+                    <a href="contact_info_natural_person.html">Контактная информация</a>/
+                    <a href="delivery_natural_person.html">Способ доставки</a>/<br />
+                    <span>Способ оплаты</span>
+                </div>
+
+                <!-- <table border="1" width="650" cellpadding="10"> -->
+
+                <div class="id-payment-method clearfix">
+                    <div>Выберите, пожалуйста, какой способ оплаты вам удобен:</div>
+                    <label class="gray-button left">
+                        <input type="radio" name="payment_method" value="cash" checked="checked" />
+                        <span>Наличные</span>
+                    </label>
+
+                    <label class="gray-button right">
+                        <input type="radio" name="payment_method" value="payment_card" />
+                        <span>Оплата картой</span>
+                    </label>
+
+                    <label class="gray-button left">
+                        <input type="radio" name="payment_method" value="cashless" />
+                        <span>Безналичные</span>
+                    </label>
+
+                    <label class="gray-button right">
+                        <input type="radio" name="payment_method" value="cash_on_delivery" />
+                        <span>Наложенный</span>
+                    </label>
+
+                    <label class="gray-button left">
+                        <input type="radio" name="payment_method" value="robokassa" />
+                        <span>Робокасса</span>
+                    </label>
+
+                    <label class="gray-button right">
+                        <input type="radio" name="payment_method" value="leasing" />
+                        <span>Лизинг</span>
+                    </label>
+
+                </div>
+
+                <div class="id-gray-line mod1"></div>
+
+                <a href="#" class="about_payment_systems right">Подробнее о системах оплаты</a>
+
+                <a href="ready_natural_person.html" class="blue-button">Далее</a>
+
+            </div>
+        </div>
+
+
+		<!--#include virtual="../ssi/footer.ssi"-->
+

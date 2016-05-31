@@ -984,6 +984,13 @@ editable - 3
     padding: 5px;
 }
 
+.editable-3.basket .basket-content .attach_company_details{
+    display: block;
+    font-size: 12px;
+    margin: 7px 0 0 130px;
+    padding: 5px;
+}
+
 
 .editable-3.basket .basket-content .blue-button{
     float: right;
@@ -1076,6 +1083,10 @@ editable - 3
 
 .editable-3.basket .basket-content form{
     margin: 70px 60px 60px 60px;
+}
+
+.editable-3.basket .basket-content form.legal_person{
+    margin: 20px 60px 1px 60px;
 }
 
 .editable-3.basket .basket-content form .text-field-label{
