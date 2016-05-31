@@ -977,6 +977,29 @@ editable - 3
     color: #fff;
 }
 
+.editable-3.basket .blue-button.natural-person{
+    display: none;
+    position: absolute;
+    right: 25px;
+    bottom: 70px;
+}
+
+.editable-3.basket .blue-button.legal-person{
+    display: none;
+    position: absolute;
+    right: 25px;
+    bottom: 70px;
+}
+
+.editable-3.basket input[class="natural-person"]:checked ~ a.blue-button.natural-person{
+    display: block;
+}
+
+.editable-3.basket input[class="legal-person"]:checked ~ a.blue-button.legal-person{
+    display: block;
+}
+
+
 .editable-3.basket .basket-content .about_payment_systems{
     display: block;
     font-size: 12px;
