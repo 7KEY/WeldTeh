@@ -657,7 +657,7 @@ footer
 
 .id-footer-column-4 ul li{
     margin-top: 15px;
-    margin-right: 45px;
+    margin-right: 40px;
 }
 
 .id-footer-column-5 ul li{
@@ -1285,8 +1285,111 @@ editable - 3
 }
 
 
+/*--------------------------------------------
+ Личный кабинет
+----------------------------------------------*/
+.private-cabinet.editable-2{
+    padding: 0;
+}
 
+.private-cabinet .private-cabinet-wrapper{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 50px 5px 50px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/padlock.png") no-repeat 30px 100px;
+    background-color: #fefefe;
+}
 
+.private-cabinet .private-cabinet-wrapper h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.private-cabinet .private-cabinet-wrapper form{
+    display: block;
+    height: 95px;
+    padding: 1px;
+    margin-bottom: 65px;
+    font-size: 13px;
+}
+
+.private-cabinet .private-cabinet-wrapper a{
+    display: block;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.private-cabinet .private-cabinet-wrapper form label.text-field-label{
+    display: block;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper form label span{
+    color: #000;
+    margin-left: 180px;
+}
+
+.private-cabinet .private-cabinet-wrapper form input{
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 220px;
+    height: 20px;
+
+    padding: 5px;
+
+    border: 1px solid #6e6d6d;
+    border-radius: 3px;
+}
+
+.private-cabinet .private-cabinet-wrapper form .blue-button{
+    display: block;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+    -moz-box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+    box-shadow: inset -1px 1px 1px rgba(29,6,0,.75);
+
+    width: 220px;
+    height: 25px;
+
+    background: #007bbb;
+    border: 0;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: center;
+    font: 13px 'PT Sans', sans-serif;
+    color: #fff;
+}
+
+.private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet{
+    position: absolute;
+    right: 50px;
+    bottom: 125px;
+}
+
+.private-cabinet .our_advantages.editable-1{
+    min-height: 124px;
+}
+
+.private-cabinet .our_advantages.editable-1 ul{
+    margin-bottom: 0;
+}
 
 
 
