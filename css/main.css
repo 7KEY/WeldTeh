@@ -1299,7 +1299,7 @@ editable - 3
     box-sizing: border-box;
     width: 628px;
     height: 357px;
-    padding: 5px 50px 5px 50px;
+    padding: 5px 30px 5px 30px;
     border: 1px solid #007bbb;
     background: url("../img/middle-part-top-line-2/padlock.png") no-repeat 30px 100px;
     background-color: #fefefe;
@@ -1312,6 +1312,18 @@ editable - 3
     margin-bottom: 25px;
 }
 
+.private-cabinet .private-cabinet-wrapper h2.registration-two{
+   margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.private-cabinet .private-cabinet-wrapper h2 a {
+    display: inline;
+    margin-left: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .private-cabinet .private-cabinet-wrapper form{
     display: block;
     height: 95px;
@@ -1320,9 +1332,40 @@ editable - 3
     font-size: 13px;
 }
 
+.private-cabinet .private-cabinet-wrapper form.registration{
+    height: 129px;
+    margin-bottom: 80px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_two{
+    height: 152px;
+    margin-bottom: 80px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_three{
+    height: 75px;
+    margin-bottom: 55px;
+}
+
+.private-cabinet .private-cabinet-wrapper form .text-form{
+    color: #010000;
+    font-size: 10px;
+    width: 220px;
+    text-align: center;
+    margin: 10px 0 10px 250px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_three .text-form{
+    margin: 10px 34px 10px 250px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_two .text-form{
+    margin: 0 0 10px 250px;
+}
+
 .private-cabinet .private-cabinet-wrapper a{
     display: block;
-    margin-left: 180px;
+    margin-left: 190px;
     margin-bottom: 10px;
     font-size: 13px;
 }
@@ -1334,9 +1377,17 @@ editable - 3
     color: #000;
 }
 
+.private-cabinet .private-cabinet-wrapper form.registration_two label.text-field-label{
+    margin: 15px 0 15px 0;
+}
+
 .private-cabinet .private-cabinet-wrapper form label span{
     color: #000;
     margin-left: 180px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_three label span{
+    margin-left: 214px;
 }
 
 .private-cabinet .private-cabinet-wrapper form input{
@@ -1348,10 +1399,16 @@ editable - 3
     width: 220px;
     height: 20px;
 
-    padding: 5px;
+    padding: 1px 5px 3px 5px;
 
     border: 1px solid #6e6d6d;
     border-radius: 3px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_three input{
+    display: inline-block;
+    width: 140px;
+    height: 25px;
 }
 
 .private-cabinet .private-cabinet-wrapper form .blue-button{
@@ -1379,8 +1436,26 @@ editable - 3
 
 .private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet{
     position: absolute;
-    right: 50px;
+    right: 31px;
     bottom: 125px;
+}
+
+.private-cabinet .private-cabinet-wrapper form.registration_three .blue-button.private-cabinet{
+    width: 290px;
+    height: 25px;
+    bottom: 140px;
+}
+
+.private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet.password-recovery {
+    bottom: 165px;
+}
+
+.private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet.registration {
+    bottom: 60px;
+}
+
+.private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet.registration_two {
+    bottom: 60px;
 }
 
 .private-cabinet .our_advantages.editable-1{
