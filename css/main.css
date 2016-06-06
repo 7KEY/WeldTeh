@@ -175,7 +175,8 @@ Header
     position: relative;
 }
 
-.id-header-search input[type="text"]{
+.id-header-search input[type="text"],
+.id-header-search input[type="password"]{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -663,6 +664,9 @@ footer
 .id-footer-column-5 ul li{
     margin-top: 8px;
     margin-right: 0;
+    color: #fff;
+    font-size: 10px;
+    list-style-type: none;
 }
 
 .id-electronic-money{
@@ -683,6 +687,13 @@ footer
     background: url("../img/footer/master-card.png") no-repeat;
 }
 
+.id-footer-outer-wrapper .id-footer-column-spacer{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 910px;
+}
 
 
 
@@ -1390,7 +1401,8 @@ editable - 3
     margin-left: 214px;
 }
 
-.private-cabinet .private-cabinet-wrapper form input{
+.private-cabinet .private-cabinet-wrapper form input[type="text"],
+.private-cabinet .private-cabinet-wrapper form input[type="password"]{
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1405,13 +1417,14 @@ editable - 3
     border-radius: 3px;
 }
 
-.private-cabinet .private-cabinet-wrapper form.registration_three input{
+.private-cabinet .private-cabinet-wrapper form.registration_three input[type="text"],
+.private-cabinet .private-cabinet-wrapper form.registration_three input[type="password"]{
     display: inline-block;
     width: 140px;
     height: 25px;
 }
 
-.private-cabinet .private-cabinet-wrapper form .blue-button{
+.private-cabinet .private-cabinet-wrapper .blue-button{
     display: block;
 
     -webkit-box-sizing: border-box;
@@ -1434,7 +1447,7 @@ editable - 3
     color: #fff;
 }
 
-.private-cabinet .private-cabinet-wrapper form .blue-button.private-cabinet{
+.private-cabinet .private-cabinet-wrapper .blue-button.private-cabinet{
     position: absolute;
     right: 31px;
     bottom: 125px;
@@ -1465,6 +1478,207 @@ editable - 3
 .private-cabinet .our_advantages.editable-1 ul{
     margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------------------
+   Задай вопрос
+  ------------------------------------------------------------------------*/
+.private-cabinet .private-cabinet-wrapper.ask-question{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/ask_question.jpg") no-repeat 45px 60px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.write-a-letter{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/send4.svg") no-repeat 50px 80px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order{
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 635px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: none;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order h2{
+    margin-bottom: 10px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form{
+    padding: 5px 60px;
+    margin: 5px;
+    height: 260px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form div.text-form{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 275px;
+    padding: 1px;
+    margin: 1px 80px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form label{
+    cursor: pointer;
+    margin: 12px 0 12px 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form label input[type="checkbox"]{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form label span{
+    margin-left: 5px;
+}
+
+.private-cabinet .private-cabinet-wrapper form label input[type="text"].id-time{
+    width: 110px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form .container-for-picture{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 1px 90px 12px 200px;
+
+    width: 125px;
+    height: 40px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order form .blue-button.private-cabinet.call-back-order{
+    right: 38px;
+    bottom: 22px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 260px;
+    min-height: 60px;
+    max-height: 80px;
+    margin-top: 210px;
+    color: #007bbb;
+    font-size: 11px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.write-a-letter div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 190px;
+    min-height: 60px;
+    max-height: 80px;
+    margin-top: 45px;
+    margin-right: 11px;
+    margin-left: 220px;
+    padding: 5px ;
+    color: #000;
+    font-size: 12px;
+}
+
+.private-cabinet .private-cabinet-wrapper.ask-question.write-a-letter div a{
+    display: inline;
+    margin: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper .blue-button.private-cabinet.call-back{
+    width: 170px;
+    height: 25px;
+    position: absolute;
+    right: 50px;
+    bottom: 175px;
+}
+
+.private-cabinet .private-cabinet-wrapper .blue-button.private-cabinet.letter{
+    width: 170px;
+    height: 25px;
+    position: absolute;
+    right: 50px;
+    bottom: 125px;
+}
+
+
+.private-cabinet.editable-2 div.frame {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 560px;
+    max-height: 550px;
+
+    padding: 10px 30px 1px  30px;
+    margin-top: 1px;
+
+    border-top: 10px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 5px solid transparent;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(#000000, #AEAEAE);
+
+    color: black;
+    font-size: 12px;
+}
+
+.private-cabinet.editable-2 div.frame ol{
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.private-cabinet.editable-2 div.frame ol ul li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
