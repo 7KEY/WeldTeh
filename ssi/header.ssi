@@ -31,7 +31,7 @@
                     <div class="id-header-menu clearfix">
                         <a href="../pgs/#" class="id-terms-of-delivery left">Условия доставки</a>
                         <a href="../pgs/#" class="id-payment-system left">Система оплаты</a>
-                        <a href="../pgs/#" class="id-order-status left">Статус заказа</a>
+                        <a href="../pgs/order_status.html" class="id-order-status left">Статус заказа</a>
                         <a href="../pgs/ask_question.html" class="id-ask-question left">Задай вопрос</a>
                         <a href="../pgs/private_cabinet.html" class="id-private-office left">Личный кабинет</a>
                     </div>

@@ -1660,15 +1660,82 @@ editable - 3
 }
 
 
+/*--------------------------------------------------------------------------
+   Статус заказа
+  ------------------------------------------------------------------------*/
+.private-cabinet .private-cabinet-wrapper.order-status{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/clock.png") no-repeat 45px 60px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.order-status div{
+    width: 270px;
+    margin-top: 126px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.order-status form{
+    min-height: 95px;
+}
+
+.private-cabinet .private-cabinet-wrapper.order-status .text-field-label{
+    margin-top: 5px;
+}
+
+.private-cabinet .private-cabinet-wrapper.order-status .text-field-label span{
+    display: block;
+    width: 120px;
+    margin-left: 45px;
+    margin-right: 98px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #686868;
+}
+
+.private-cabinet .private-cabinet-wrapper.order-status .blue-button.private-cabinet{
+    width: 120px;
+    height: 18px;
+    right: 30px;
+    bottom: 70px;
+
+    font-size: 12px;
+    padding: 0 1px 4px 1px;
+}
 
 
+.private-cabinet .private-cabinet-wrapper.order-status .statuses-order{
+    margin-top: 40px;
+    margin-left: 180px;
+}
 
+.private-cabinet .private-cabinet-wrapper.ask-question.call-back-order.statuses-order{
+    height: 482px;
+}
 
+.private-cabinet .private-cabinet-wrapper dl{
+    margin-top: 30px;
+    font-size: 12px;
+}
 
+.private-cabinet .private-cabinet-wrapper dt{
+    display: inline;
+    color: #007bbb;
+}
 
-
-
-
+.private-cabinet .private-cabinet-wrapper dd{
+    display: inline;
+    color: #000;
+}
 
 
 
