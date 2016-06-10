@@ -1796,6 +1796,310 @@ editable - 3
     padding: 0 1px 4px 1px;
 }
 
+/* -----------------------------------------------------
+   Система оплаты
+-------------------------------------------------------- */
+
+.private-cabinet .private-cabinet-wrapper.payment-system{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/logo.jpg") no-repeat 26px 84px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.left{
+    width: 270px;
+    margin-top: 120px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right{
+    width: 280px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right div.left{
+    width: 135px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right div.right{
+    width: 130px;
+    padding: 1px 1px 1px 1px;
+    margin: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a{
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.cash-payment{
+    background: url("../img/middle-part-top-line-2/cash_payment.svg") no-repeat 35px 1px;
+    padding: 65px 10px 2px 15px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.leasing{
+    background: url("../img/middle-part-top-line-2/leasing.svg") no-repeat 21px 1px;
+    padding: 65px 10px 2px 45px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.cash-on-delivery{
+    background: url("../img/middle-part-top-line-2/cash_on_delivery.svg") no-repeat 32px 8px;
+    padding: 65px 10px 2px 10px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.robokassa{
+    background: url("../img/middle-part-top-line-2/roʙokassa.svg") no-repeat 40px 8px;
+    padding: 65px 10px 2px 39px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.cashless-payment{
+    background: url("../img/middle-part-top-line-2/cashless_payment.svg") no-repeat 34px 5px;
+    padding: 65px 10px 2px 10px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system div.right a.payment-card{
+    background: url("../img/middle-part-top-line-2/payment_card.svg") no-repeat 37px 13px;
+    padding: 65px 10px 2px 29px;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/cash_payment_big.svg") no-repeat 45px 90px;
+    background-color: #fefefe;
+    /*text-indent: 1em;*/
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment div.right{
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment div.right div{
+    text-indent: 1em;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.payment-pickup{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/cash_payment_big.svg") no-repeat 45px 90px;
+    background-color: #fefefe;
+    text-indent: 0;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.payment-pickup div.right{
+    width: 310px;
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.payment-pickup div.right span{
+    color: #007bbb;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.courier-delivery{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/cash_payment_big.svg") no-repeat 45px 90px;
+    background-color: #fefefe;
+    text-indent: 0;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.courier-delivery div.right{
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 1px;
+
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment.courier-delivery div.right span{
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment div.right div{
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-payment div.right a{
+    display: block;
+
+    padding: 5px 5px 5px 0;
+    margin: 5px 0 0 0;
+
+    font-size: 12px;
+    font-style: italic;
+
+    color: #007bbb;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-on-delivery{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/cash_on_delivery_big.svg") no-repeat 45px 90px;
+    background-color: #fefefe;
+    text-indent: 1em;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cash-on-delivery div.right{
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 1px;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cashless-payment{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/cashless_payment_big.svg") no-repeat 45px 90px;
+    background-color: #fefefe;
+    text-indent: 1em;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.cashless-payment div.right{
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 1px;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.leasing{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/leasing_big.svg") no-repeat 18px 93px;
+    background-color: #fefefe;
+    text-indent: 1em;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.leasing div.right{
+    width: 340px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.robokassa{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/roʙokassa_big.svg") no-repeat 30px 93px;
+    background-color: #fefefe;
+    text-indent: 1em;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.robokassa div.right{
+    width: 340px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.robokassa h2{
+    margin-bottom: 10px;
+}
+
+
+.private-cabinet .private-cabinet-wrapper.payment-system.payment-card{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/payment_card_big.svg") no-repeat 45px 75px;
+    background-color: #fefefe;
+    text-indent: 1em;
+    font-size: 13px;
+    color: #000;
+}
+
+.private-cabinet .private-cabinet-wrapper.payment-system.payment-card div.right{
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 1px;
+}
+
+
+
+
+
+
 
 
 
