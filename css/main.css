@@ -81,7 +81,7 @@ body{
 }
 
 body a:hover, body a:active{
-    color: #f0b35a;
+    color: #f0b35a !important;
 }
 
 
@@ -2094,6 +2094,266 @@ editable - 3
     margin-top: 45px;
     margin-bottom: 1px;
 }
+
+/* ----------------------------------------------------------------------
+    Каталог
+   ---------------------------------------------------------------------- */
+
+/* -------------
+   Электросварка
+   ------------- */
+
+.private-cabinet .private-cabinet-wrapper.electric-welding{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/catalogue/electric_welding.jpg") no-repeat 60px 65px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding h2{
+    text-align: left;
+    padding-left: 28px;
+    margin-bottom: 1px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding div{
+    width: 250px;
+    margin-top: 185px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding ul{
+    list-style: none;
+    width: 300px;
+    margin: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding li{
+    border-bottom: 1px solid #797979;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding ul :last-child {
+    border-bottom: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.electric-welding ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 1px;
+    color: #797979;
+}
+
+
+/* -------------
+   Газосварка
+   ------------- */
+
+.private-cabinet .private-cabinet-wrapper.gas-welding{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/catalogue/gas_welding.jpg") no-repeat 60px 65px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding h2{
+    text-align: left;
+    padding-left: 38px;
+    margin-bottom: 1px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding div{
+    width: 250px;
+    margin-top: 153px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding ul{
+    list-style: none;
+    width: 300px;
+    margin: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding li{
+    border-bottom: 1px solid #797979;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding ul :last-child {
+    border-bottom: 0;
+}
+
+.private-cabinet .private-cabinet-wrapper.gas-welding ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 1px;
+    color: #797979;
+}
+
+
+
+
+/* -------------
+   Разное
+   ------------- */
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/catalogue/miscellaneous.jpg") no-repeat 40px 80px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous h2{
+    text-align: left;
+    padding-left: 79px;
+    margin-bottom: 1px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous div{
+    width: 250px;
+    margin-top: 160px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous ul{
+    list-style: none;
+    width: 300px;
+    margin: 0;
+    margin-top: 66px;
+}
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous li{
+    border-bottom: 1px solid #797979;
+}
+
+/*.private-cabinet .private-cabinet-wrapper.miscellaneous ul :last-child {
+    border-bottom: 0;
+}*/
+
+.private-cabinet .private-cabinet-wrapper.miscellaneous ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 1px;
+    color: #797979;
+}
+
+
+/* -------------
+   Приспособления
+   ------------- */
+
+.private-cabinet .private-cabinet-wrapper.devices{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 628px;
+    height: 357px;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #007bbb;
+    background: url("../img/middle-part-top-line-2/catalogue/devices.jpg") no-repeat 20px 45px;
+    background-color: #fefefe;
+}
+
+.private-cabinet .private-cabinet-wrapper.devices h2{
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 1px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.devices div{
+    width: 250px;
+    margin-top: 160px;
+
+    font-size: 11px;
+    color: #007bbb;
+}
+
+.private-cabinet .private-cabinet-wrapper.devices ul{
+    list-style: none;
+    width: 300px;
+    margin: 0;
+    margin-top: 26px;
+}
+
+.private-cabinet .private-cabinet-wrapper.devices li{
+    border-bottom: 1px solid #797979;
+}
+
+/*.private-cabinet .private-cabinet-wrapper.devices ul :last-child {
+    border-bottom: 0;
+}*/
+
+.private-cabinet .private-cabinet-wrapper.devices ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 1px;
+    color: #797979;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
