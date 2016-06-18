@@ -803,7 +803,7 @@ editable - 3
     position: relative;
 }
 
-.editable-3.news, .editable-3.catalog, .editable-3.basket{
+.editable-3.news, .editable-3.catalog, .editable-3.basket, .editable-3.items{
     width: 822px;
     padding: 13px;
 }
@@ -860,6 +860,7 @@ editable - 3
     padding: 5px;
     margin: 0;
     font-size: 12px;
+    color: #000;
 }
 
 .editable-3.basket .basket-content .id-ready{
@@ -2444,6 +2445,461 @@ editable - 3
 }
 
 
+/* -------------------------------------------------------------------------------------------------
+   каталог -> раздел каталога (section) -> товары (items) -> товар (items) [стр. welding_inwerters_2]
+   ------------------------------------------------------------------------------------------------- */
+.editable-3.items .path{
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+
+.item-line_pics-block{
+    width: 250px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.item-line_pics-block a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.item-line_pics-block .item-img-big{
+    width: 239px;
+    height: 175px;
+    padding: 13px 1px 1px 33px;
+    margin: 1px 1px 1px 1px;
+}
+
+.item-line_pics-block .item-img-small{
+    width: 75px;
+    height: 70px;
+    margin: 6px 6px 4px 1px;
+}
+
+.item-line_pics-block .item-img-small.iis-1{
+    padding: 4px 1px 1px 3px;
+}
+
+.item-line_pics-block .item-img-small.iis-2{
+    padding: 16px 1px 1px 5px;
+}
+
+.item-line_pics-block .item-img-small.iis-3{
+    padding: 10px 1px 1px 7px;
+}
+
+.item-line_pics-block .view-more-pictures{
+    background: none;
+    font-size: 13px;
+    color: #fff;
+    padding: 3px 3px 3px 3px;
+    margin: 1px 6px 1px 1px;
+
+}
+
+
+.item-line_text-block{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 520px;
+    height: 253px;
+    background: #fff;
+    padding: 5px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.item-line_text-block.iltb-1{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 7px 0;
+    width: 400px;
+    height: 21px;
+    font-size: 16px;
+    color: #000;
+}
+
+.item-line_text-block.iltb-2{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 0 5px 0;
+    width: 490px;
+    height: 93px;
+    background: #eceded;
+    font-size: 16px;
+    color: #000;
+}
+
+.item-line_text-block_2-1{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 225px;
+    /*height: 93px;*/
+
+    text-align: right;
+}
+
+.item-line_text-block_2-1 div{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bbb;
+}
+
+.item-line_text-block_2-1 a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.item-line_text-block_2-2{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 225px;
+    /*height: 93px;*/
+
+    font-size: 12px;
+    color: #282828;
+}
+
+.item-line_text-block_2-2-1{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 2px;
+    width: 140px;
+    height: 20px;
+}
+
+.item-line_text-block_2-2-1-1{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 2px;
+    width: 60px;
+    height: 20px;
+
+    background: #007bba;
+    font-size: 12px;
+    color: #fff;
+
+    text-align: center;
+}
+
+
+
+.item-line_text-block_2-2 a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 219px;
+    height: 20px;
+
+    padding: 2px;
+    margin: 5px;
+
+    background: #007bba;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+
+    text-align: center;
+}
+
+
+.item-line_text-block.iltb-3{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px 2px 2px 15px;
+    margin: 0;
+    width: 240px;
+    height: 50px;
+    background: #eceded;
+    font-size: 12px;
+    color: #000;
+}
+
+.item-line_text-block.iltb-3 a{
+    padding: 0;
+    margin: 0 5px 0 0;
+    font-size: 12px;
+}
+
+.item-line_text-block.iltb-4{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px 50px 2px 66px;
+    margin: 0;
+    width: 244px;
+    height: 50px;
+    background: #eceded;
+    font-size: 12px;
+    color: #000;
+}
+
+.item-line_text-block.iltb-4 a{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+
+.item-line_text-block.iltb-5{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 17px 2px 2px 25px;
+    margin: 5px 0 0 0;
+    width: 240px;
+    height: 50px;
+    background: #eceded;
+    font-size: 12px;
+    color: #000;
+}
+
+.item-line_text-block.iltb-5 a{
+    padding: 1px 1px;
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+
+.item-line_text-block.iltb-6{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 17px 2px 2px 66px;
+    margin: 5px 0 0 0;
+    width: 244px;
+    height: 50px;
+    background: #eceded;
+    font-size: 12px;
+    color: #000;
+}
+
+.item-line_text-block.iltb-6 a{
+    padding: 1px 1px;
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.complementary-item-line_right-block{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 520px;
+    height: 170px;
+    padding: 15px;
+    margin-right: 7px;
+    background: #fff;
+}
+
+.complementary-item-line_right-block a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: #000;
+}
+
+.complementary-item-line_right-block a span{
+    color: #007bbb;
+    font-weight: bold;
+}
+
+.complementary-item{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.complementary-item.ci-1{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.complementary-item.ci-2{
+    padding: 0 0 0 0;
+    margin: 0 0 0 48px;
+}
+
+.complementary-item.ci-3{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+
+.complementary-item-top{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+}
+
+
+.ci-1 .complementary-item-top{
+    padding: 0 0 5px 25px;
+}
+
+.ci-2 .complementary-item-top{
+    padding: 0 0 9px 0;
+}
+
+.ci-3 .complementary-item-top{
+    padding: 0 0 0 25px;
+}
+
+
+.complementary-item-bottom{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    text-align: center;
+}
+
+
+
+
+.complementary-item-line_left-block{
+    width: 241px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+
+    margin-top: 1px;
+    height: 149px;
+    /*background: gray;*/
+
+    font-size: 13px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+}
+
+.complementary-item-line_left-block :first-child{
+    padding-top: 39px;
+    font-size: 21px;
+
+}
+
+.complementary-item-line_left-block a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.complementary-item-line_left-block .plus{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    font-size: 58px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* -------------------------------------------------------------------------------------------------
+   каталог -> раздел каталога (section) -> товары (items) -> товар (items)
+   -> Технические характеристики / Описание товара [стр. welding_inwerters_3 / welding_inwerters_4]
+   ------------------------------------------------------------------------------------------------- */
+
+.item-line_text-block.technical-characteristics{
+   height: 0;
+   min-height: 253px;
+}
+
+.item-line_text-block.technical-characteristics .item-line_text-block.iltb-1{
+    font-size: 13px;
+    color: #007bbb;
+    text-transform: uppercase;
+    margin: 3px 0;
+}
+
+.item-line_text-block.technical-characteristics .backward{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 31px;
+    height: 21px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: url("../img/middle-part-top-line-2/backward.png") no-repeat;
+}
+
+.item-line_text-block.technical-characteristics .item-line_text-block.iltb-2{
+    height: 205px;
+    min-height: 205px;
+}
 
 
 
@@ -2465,9 +2921,11 @@ editable - 3
 
 
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
+
+
+    /* ==========================================================================
+       Helper classes
+       ========================================================================== */
 
 .hidden {
     display: none !important;
@@ -2526,7 +2984,9 @@ editable - 3
     display: block;
 }
 
+
 .block{
     display: block;
 }
+
 

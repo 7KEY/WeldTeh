@@ -16,7 +16,7 @@
                             <li><a href="../pgs/manufacturers.html">Производители</a></li>
                             <li><a href="../pgs/working_conditions.html">Условия работы</a></li>
                             <li><a href="../pgs/purchase_returns.html">Возврат товара</a></li>
-                            <li><a href="../pgs/#">Контакты</a></li>
+                            <li><a href="../pgs/contacts.html">Контакты</a></li>
                         </ul>
                     </div>
 
@@ -49,7 +49,7 @@
                     <div class="container">
                         <div class="footer-header">Выгодно</div>
                         <ul>
-                            <li><a href="../pgs/#">Акции</a></li>
+                            <li><a href="../pgs/events.html">Акции</a></li>
                             <li><a href="../pgs/#">Спецпредложения</a></li>
                             <li><a href="../pgs/#">Выгодные покупки</a></li>
                         </ul>
