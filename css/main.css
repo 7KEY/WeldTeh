@@ -92,10 +92,16 @@ Header
 
 .id-header-outer-wrapper{
     background: #000;
-    height: 95px;
+
+    min-height:  calc(95px * 1.1);   /*scale - 110%*/
+    margin-bottom: 30px;
 }
 
 .id-header-inner-wrapper{
+
+    transform: scale(1.1);          /*scale - 110%*/
+
+
     width: 822px;
     margin: 0 auto;
     padding-top: 1px;
@@ -244,7 +250,14 @@ Header
 middle part
 ------------------------------------------------------------*/
 
+.id-middle-part-outer-wrapper{
+    min-height: 560px;                          /*scale - 110%*/
+}
+
 .id-middle-part-inner-wrapper{
+
+    transform: scale(1.1);                      /*scale - 110%*/
+
     width: 822px;
     margin: 15px auto 0 auto;
     padding-top: 1px;
@@ -624,10 +637,13 @@ footer
     padding-top: 2px;
     padding-bottom: 10px;
 
-    /*margin-bottom: 300px;*/
+    margin-top: 16px;
 }
 
 .id-footer-inner-wrapper{
+
+    transform: scale(1.1);
+
     width: 822px;
     margin: 1px auto;
 
@@ -692,7 +708,7 @@ footer
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 5px;
-    width: 910px;
+    width: 931px;
 }
 
 
