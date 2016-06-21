@@ -1,4 +1,2 @@
-AddDefaultCharset Off
-<IfModule dir_module>
-    DirectoryIndex pgs/index.html
-</IfModule>
+AddDefaultCharset UTF-8
+Redirect 301 /index.html /pgs/index.html
