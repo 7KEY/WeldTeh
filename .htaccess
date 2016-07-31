@@ -1,2 +1,2 @@
 AddDefaultCharset UTF-8
-Redirect 301 /index.html /pgs/index.html
+#Redirect 301 /index.html /pgs/index.html
